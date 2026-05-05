@@ -1,4 +1,4 @@
-Simple Tkinter countdown timer.
+<h1>Simple Tkinter countdown timer</h1>
 
 
 
