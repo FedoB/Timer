@@ -2,7 +2,7 @@ Simple Tkinter countdown timer.
 
 
 
-To change the default time, change `TIME\_START\_DEF = "03:00"` on line 15.
+To change the default time, change `TIME_START_DEF = "03:00"` on line 15.
 
 
 
