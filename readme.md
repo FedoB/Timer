@@ -16,7 +16,7 @@ You can press the checkmark on the top left to make the timer window "topmost" (
 
 Troubleshooting:
 
-\-It's a pyw file, so opening it will immediatly start the program like an execeutable
+\-It's a pyw file, opening it will immediately launch the program like an executable
 
 \-If it doesn't start, you probably dont have pillow (PIL) installed. A simple `python -m pip install pillow` should solve your issues. Otherwise run the program from your terminal with `python Timer.pyw` and it will show you the error message.
 
