@@ -12,7 +12,7 @@ You can press "backspace" to change the background color.
 
 You can press the checkmark on the top left to make the timer window "topmost" (it will get lifted over all other windows)
 
-
+<img width="310" height="325" alt="image" src="https://github.com/user-attachments/assets/f939709c-2dc8-4dab-8979-a8c44940b8af" />
 
 Troubleshooting:
 
