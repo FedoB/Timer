@@ -19,8 +19,8 @@ You can press the Reset button (right) to reset the timer to your previusly set 
 After launching the program, or after pressing the Reset button, you may easily change the time by clicking the arrows above the mm:ss numbers.
 
 <img width="310" height="325" alt="image" src="https://github.com/user-attachments/assets/f939709c-2dc8-4dab-8979-a8c44940b8af" />
-
-
+\
+\
 Troubleshooting:
 
 \-It's a pyw file, opening it will immediately launch the program like an executable
