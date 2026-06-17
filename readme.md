@@ -1,4 +1,4 @@
-<h1>Simple Python countdown timer</h1>
+<h1 align="center">Simple Python countdown timer</h1>
 
 <p align="center">
   <img width="301" height="212" alt="image" src="https://github.com/user-attachments/assets/265ae7c1-d4ba-40e4-b727-ccd38b9c433c" />
