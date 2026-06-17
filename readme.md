@@ -1,7 +1,7 @@
 <h1>Simple Python countdown timer</h1>
 
 <p align="center">
-  <img width="310" height="325" alt="image" src="https://github.com/user-attachments/assets/f939709c-2dc8-4dab-8979-a8c44940b8af" />
+  <img width="302" height="213" alt="image" src="https://github.com/user-attachments/assets/37521935-1331-4b82-9ff8-2078a41e1e76" />
 </p>
 
 To change the default time, change the mm:ss value on line 15: `TIME_START_DEF = "03:00"`.
