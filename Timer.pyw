@@ -286,17 +286,17 @@ def add_menu(root):
     c2 = tk.Canvas(root, width=50, height=50, name="c2", borderwidth=0, bg="red", highlightthickness=0)
     c2.image = photo_pp
     c2.image_id = c2.create_image(0, 0, image = photo_pp, anchor = tk.NW)
-    c2.place(x=100, y=300)
+    c2.place(x=100, y=200)
     c2.thread = None
 
     photo_reset = image_cache["t_reset"]
     c3 = tk.Canvas(root, width=50, height=50, name="c3", borderwidth=0, bg="gold", highlightthickness=0)
     c3.image = photo_reset
     c3.image_id = c3.create_image(0, 0, image = photo_reset, anchor = tk.NW)
-    c3.place(x=250, y=300)
+    c3.place(x=250, y=200)
 
     coord_x = 40
-    coord_y = 90
+    coord_y = 25
 
     #orizzontale: x0, y0, x0+50, y0+15
     w0 = c1.create_oval(coord_x, coord_y, coord_x+50, coord_y+15, outline="black", fill="white", width=2)
@@ -350,19 +350,19 @@ def add_menu(root):
 
     #due punti
     coord_x = 190
-    coord_y = 127
+    coord_y = 127-65
     wxyz0 = c1.create_oval(coord_x, coord_y, coord_x+20, coord_y+20, outline="black", fill="white", width=2)
     wxyz1 = c1.create_oval(coord_x, coord_y+50, coord_x+20, coord_y+50+20, outline="black", fill="white", width=2)
 
     #otto triangoli
-    tri0 = c1.create_polygon([40,70, 65,50, 90,70], outline="black", fill="white", width=2)
-    tri1 = c1.create_polygon([40+80,70, 65+80,50, 90+80,70], outline="black", fill="white", width=2)
-    tri2 = c1.create_polygon([40+190,70, 65+190,50, 90+190,70], outline="black", fill="white", width=2)
-    tri3 = c1.create_polygon([40+270,70, 65+270,50, 90+270,70], outline="black", fill="white", width=2)
-    tri4 = c1.create_polygon([40,256, 65,276, 90,256], outline="black", fill="white", width=2)
-    tri5 = c1.create_polygon([40+80,256, 65+80,276, 90+80,256], outline="black", fill="white", width=2)
-    tri6 = c1.create_polygon([40+190,256, 65+190,276, 90+190,256], outline="black", fill="white", width=2)
-    tri7 = c1.create_polygon([40+270,256, 65+270,276, 90+270,256], outline="black", fill="white", width=2)
+    tri0 = c1.create_polygon([40,20, 65,5, 90,20], outline="black", fill="white", width=2)
+    tri1 = c1.create_polygon([40+80,20, 65+80,5, 90+80,20], outline="black", fill="white", width=2)
+    tri2 = c1.create_polygon([40+190,20, 65+190,5, 90+190,20], outline="black", fill="white", width=2)
+    tri3 = c1.create_polygon([40+270,20, 65+270,5, 90+270,20], outline="black", fill="white", width=2)
+    tri4 = c1.create_polygon([40,175, 65,190, 90,175], outline="black", fill="white", width=2)
+    tri5 = c1.create_polygon([40+80,175, 65+80,190, 90+80,175], outline="black", fill="white", width=2)
+    tri6 = c1.create_polygon([40+190,175, 65+190,190, 90+190,175], outline="black", fill="white", width=2)
+    tri7 = c1.create_polygon([40+270,175, 65+270,190, 90+270,175], outline="black", fill="white", width=2)
     
     # Checkbox root.attributes('-topmost', True)
     topCB = tk.IntVar()
@@ -402,7 +402,7 @@ def add_menu(root):
 def main():
     root = tk.Tk()
     preload_images()
-    root.geometry(f"{400}x{400}")
+    root.geometry(f"{400}x{252}+{0}+{0}")
     root.configure(bg="white")
     root.resizable(False, False)
     add_menu(root)
