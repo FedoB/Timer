@@ -1,14 +1,14 @@
 <h1>Simple Python countdown timer</h1>
 
 <p align="center">
-  <img width="302" height="213" alt="image" src="https://github.com/user-attachments/assets/37521935-1331-4b82-9ff8-2078a41e1e76" />
+  <img width="301" height="212" alt="image" src="https://github.com/user-attachments/assets/265ae7c1-d4ba-40e4-b727-ccd38b9c433c" />
 </p>
 
 To change the default time, change the mm:ss value on line 15: `TIME_START_DEF = "03:00"`.
 
 You can press "spacebar" to play/pause the timer.
 
-You can press "backspace" to change the background color.
+You can press "backspace" to change the background/numbers color.
 
 You can press the checkmark on the top left to make the timer window stuck "topmost" (lifted over all other windows)
 
