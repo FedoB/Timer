@@ -355,14 +355,14 @@ def add_menu(root):
     wxyz1 = c1.create_oval(coord_x, coord_y+50, coord_x+20, coord_y+50+20, outline="black", fill="white", width=2)
 
     #otto triangoli
-    tri0 = c1.create_polygon([40,20, 65,5, 90,20], outline="black", fill="white", width=2)
-    tri1 = c1.create_polygon([40+80,20, 65+80,5, 90+80,20], outline="black", fill="white", width=2)
-    tri2 = c1.create_polygon([40+190,20, 65+190,5, 90+190,20], outline="black", fill="white", width=2)
-    tri3 = c1.create_polygon([40+270,20, 65+270,5, 90+270,20], outline="black", fill="white", width=2)
-    tri4 = c1.create_polygon([40,175, 65,190, 90,175], outline="black", fill="white", width=2)
-    tri5 = c1.create_polygon([40+80,175, 65+80,190, 90+80,175], outline="black", fill="white", width=2)
-    tri6 = c1.create_polygon([40+190,175, 65+190,190, 90+190,175], outline="black", fill="white", width=2)
-    tri7 = c1.create_polygon([40+270,175, 65+270,190, 90+270,175], outline="black", fill="white", width=2)
+    tri0 = c1.create_polygon([40, 20, 65, 5, 90, 20], outline="black", fill="white", width=2)
+    tri1 = c1.create_polygon([120, 20, 145, 5, 170, 20], outline="black", fill="white", width=2)
+    tri2 = c1.create_polygon([230, 20, 255, 5, 280, 20], outline="black", fill="white", width=2)
+    tri3 = c1.create_polygon([310, 20, 335, 5, 360, 20], outline="black", fill="white", width=2)
+    tri4 = c1.create_polygon([40, 176, 65, 191, 90, 176], outline="black", fill="white", width=2)
+    tri5 = c1.create_polygon([120, 176, 145, 191, 170, 176], outline="black", fill="white", width=2)
+    tri6 = c1.create_polygon([230, 176, 255, 191, 280, 176], outline="black", fill="white", width=2)
+    tri7 = c1.create_polygon([310, 176, 335, 191, 360, 176], outline="black", fill="white", width=2)
     
     # Checkbox root.attributes('-topmost', True)
     topCB = tk.IntVar()
