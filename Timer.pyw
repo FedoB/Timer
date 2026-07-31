@@ -66,7 +66,7 @@ class play(threading.Thread):
                 break
         else:
             self.root.nametowidget(".c2").thread = None
-            self.root.nametowidget(".c2")["bg"] = "red"
+            self.root.nametowidget(".c2").itemconfig("playpause", fill="red", outline="red")
             change_background(d)
             winsound.Beep(245, 200)
             time.sleep(0.01)
@@ -120,7 +120,7 @@ def reset(root, d):
     if root.nametowidget(".c2").thread != None:
         root.nametowidget(".c2").thread.event.set()
         root.nametowidget(".c2").thread = None
-    root.nametowidget(".c2")["bg"] = "red"
+    root.nametowidget(".c2").itemconfig("playpause", fill="red", outline="red")
     
     default = root.title()
     d["time"] = default
